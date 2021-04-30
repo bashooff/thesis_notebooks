@@ -44,7 +44,7 @@ for feature in cat_features:
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.4)
 
-"""Linear Regression"""
+"""1. Linear Regression"""
 
 from sklearn.linear_model import LinearRegression
 model1 = LinearRegression()
